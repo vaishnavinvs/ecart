@@ -1,0 +1,17 @@
+.banner{
+    background-image: url('https://png.pngtree.com/back_origin_pic/04/60/36/8287f3e300914709286bf22ea2071851.jpg');
+    background-size: cover;
+    background-position: center;
+    /* background-attachment: fixed; */
+    height:50vh;
+    width: 100%;
+
+}
+.card img{
+    transition: 3s;
+}
+
+.card:hover img{
+transform: scale(1.1);
+transition: 2s;
+}
